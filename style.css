@@ -1,0 +1,146 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --purple-50: hsl(260, 100%, 95%);
+  --purple-300: hsl(264, 82%, 80%);
+  --purple-500: hsl(263, 55%, 52%);
+  --white: hsl(0, 0%, 100%);
+  --grey-100: hsl(214, 17%, 92%);
+  --grey-200: hsl(0, 0%, 81%);
+  --grey-400: hsl(224, 10%, 45%);
+  --grey-500: hsl(217, 19%, 35%);
+  --dark-blue: hsl(219, 29%, 14%);
+  --black: hsl(0, 0%, 7%);
+}
+
+/* Body Styles */
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+  background-color: var(--grey-100);
+  padding: 2rem;
+  color: var(--grey-500);
+}
+
+/* Testimonials Grid */
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "daniel daniel jonathan kira"
+      "jeanette patrick patrick kira";
+  }
+
+  .card--daniel {
+    grid-area: daniel;
+  }
+
+  .card--jonathan {
+    grid-area: jonathan;
+  }
+
+  .card--jeanette {
+    grid-area: jeanette;
+  }
+
+  .card--patrick {
+    grid-area: patrick;
+  }
+
+  .card--kira {
+    grid-area: kira;
+  }
+}
+
+/* Card Styles */
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.card__avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.card__name {
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.card__status {
+  font-size: 0.8rem;
+  color: var(--grey-400);
+}
+
+.card__title {
+  font-weight: 600;
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+.card__quote {
+  font-weight: 500;
+  color: var(--grey-500);
+}
+
+/* Specific Card Backgrounds */
+.card--daniel {
+  background-color: var(--purple-500);
+  color: var(--white);
+}
+
+.card--jonathan {
+  background-color: var(--grey-500);
+  color: var(--white);
+}
+
+.card--jeanette {
+  background-color: var(--white);
+  color: var(--grey-500);
+}
+
+.card--patrick {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.card--kira {
+  background-color: var(--white);
+  color: var(--grey-500);
+}
+
+/* Attribution */
+.attribution {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
