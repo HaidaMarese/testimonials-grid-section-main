@@ -38,7 +38,8 @@ During this project, I deepened my understanding of using Bootstrap’s grid sys
 Moving forward, I plan to continue improving my Bootstrap knowledge, particularly in customizing components with utility classes and ensuring a pixel-perfect design. I would also like to explore more advanced Bootstrap features like modals and carousels for future projects.
 
 ## Useful Resources
-- [Bootstrap Documentation](https://getbootstrap.com/)
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
+- [Git Documentation ](https://git-scm.com/doc)
 
 
