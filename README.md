@@ -12,6 +12,7 @@ This is a solution to the [Testimonials Grid Section](https://www.frontendmentor
 - [What I Learned](#what-i-learned)
 - [Continued Development](#continued-development)
 - [Useful Resources](#useful-resources)
+-  Acknowledgments
 
 
 ## Overview
@@ -41,5 +42,10 @@ Moving forward, I plan to continue improving my Bootstrap knowledge, particularl
 - [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
 - [Git Documentation ](https://git-scm.com/doc)
+
+
+## Acknowledgments
+
+Thanks to the Frontend Mentor team for this challenge. It’s a great starting point for building real-world components!
 
 
